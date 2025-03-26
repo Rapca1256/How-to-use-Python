@@ -1,2 +1,2 @@
-# How-to-use-Python
-This is basic introduction of Python for Suken.
+# Pythonのすゝめ
+数研用のPythonのとりせつです。
