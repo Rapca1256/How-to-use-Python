@@ -127,7 +127,7 @@ print('Oh!')
 
 print('Pen' + 'pineapple' + 'apple' + 'pen')
 
-print('PPAP')
+print('すみませんでした。')
 
 ```
 
