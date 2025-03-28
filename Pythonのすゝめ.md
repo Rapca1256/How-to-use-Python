@@ -130,6 +130,24 @@ print('Pen' + 'pineapple' + 'apple' + 'pen')
 print('PPAP')
 
 ```
+
+出力は
+```
+I have a pen.
+I have an apple.
+Oh!
+Applepen
+I have a pen.
+I have a pineapple.
+Oh!
+Pineapplepen
+Applepen
+Pineapplepen
+Oh!
+Penpineappleapplepen
+PPAP
+```
+となります。すみませんでした。
 ### 3-4 if文
 
 if文は与えられた条件式が正しい(真,True)時と正しくない(偽,False)ときに処理を分けるものです。
