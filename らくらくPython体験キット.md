@@ -6,7 +6,7 @@
 
 これを読む前にPythonのすゝめの2.インストールまで読んでインストールを完了させることを強く勧めます。
 
-完成形は体験編フォルダにあるのでぜひ自身の環境に移して実行してみてください。
+完成形は体験編フォルダにあるので課題ができたらぜひ同じように動作するか自身の環境に移して試してみてください。
 
 ## 2. 電卓を作ろう
 
@@ -114,3 +114,26 @@ buttons = [
 ## 3. 手書き文字認識AIを作ろう
 
 やっぱりPythonといえばAIですよね。今回はテストの採点とかで使われている手書き文字の認識をやるAIを作っていきましょう。
+
+以下がコードですが、やっぱり未完成なので直してあげましょう。これの作者はなんで中途半端なものしか渡さないんでしょうね。そのせいで私たちが困る羽目になるんですよ。大体最初から完成品を渡して解説すればいいだけなのにあれのせいで私が苦労するんですよふざけんな。
+
+失礼しました。まず、コマンドプロンプトで次を実行してください。
+
+```cmd
+pip install tensorflow matplotlib
+
+```
+
+```python
+
+import tensorflow as tf
+import matplotlib
+import matplotlib.pyplot as plt
+
+datasets = tf.keras.datases.mnist.load_model()
+
+(X_train, Y_train), (X_test, Y_test) = datasets
+
+plt.imshow(X_train[0], cmap='gray')
+plt.show()
+```
